@@ -1,7 +1,7 @@
 FROM node:8-alpine
 LABEL maintainer="Tommi Haapaniemi"
 
-ENV KINESALITE_VERSION=1.11.6
+ENV KINESALITE_VERSION=1.14.0
 
 RUN \
   apk add --no-cache python make g++ && \
